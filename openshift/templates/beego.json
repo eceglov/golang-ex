@@ -134,7 +134,7 @@
             "type": "ConfigChange"
           }
         ],
-        "replicas": 1,
+        "replicas": 3,
         "selector": {
           "name": "beego-example"
         },
