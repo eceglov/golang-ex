@@ -114,7 +114,14 @@
       },
       "spec": {
         "strategy": {
-          "type": "Rollout"
+          "type": "Rolling",
+          "rollingParams": {
+            "timeoutSeconds": 120, 
+            "maxSurge": "20%", 
+            "maxUnavailable": "10%" 
+            "pre": {}, 
+            "post": {}
+          }
         },
         "triggers": [
           {
