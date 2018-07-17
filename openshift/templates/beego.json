@@ -112,9 +112,7 @@
           "rollingParams": {
             "timeoutSeconds": 120,
             "maxSurge": "20%",
-            "maxUnavailable": "10%",
-            "pre": {},
-            "post": {}
+            "maxUnavailable": "10%"
           }
         },
         "triggers": [
